@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0429A4DE24FC18EF0083AF58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0429A4DD24FC18EF0083AF58 /* main.cpp */; };
+		0429A4E724FC19CE0083AF58 /* allocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0429A4E624FC19CE0083AF58 /* allocation.cpp */; };
+		0429A4E924FC1CA90083AF58 /* helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0429A4E824FC1CA90083AF58 /* helper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		0429A4DA24FC18EF0083AF58 /* google-kickstart */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "google-kickstart"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0429A4DD24FC18EF0083AF58 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0429A4E624FC19CE0083AF58 /* allocation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = allocation.cpp; sourceTree = "<group>"; };
+		0429A4E824FC1CA90083AF58 /* helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = helper.cpp; sourceTree = "<group>"; };
+		0429A4EA24FC1DE80083AF58 /* headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,28 @@
 		0429A4DC24FC18EF0083AF58 /* google-kickstart */ = {
 			isa = PBXGroup;
 			children = (
+				0429A4E424FC193E0083AF58 /* 2020 */,
 				0429A4DD24FC18EF0083AF58 /* main.cpp */,
+				0429A4E824FC1CA90083AF58 /* helper.cpp */,
+				0429A4EA24FC1DE80083AF58 /* headers.h */,
 			);
 			path = "google-kickstart";
+			sourceTree = "<group>";
+		};
+		0429A4E424FC193E0083AF58 /* 2020 */ = {
+			isa = PBXGroup;
+			children = (
+				0429A4E524FC194E0083AF58 /* A */,
+			);
+			path = 2020;
+			sourceTree = "<group>";
+		};
+		0429A4E524FC194E0083AF58 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				0429A4E624FC19CE0083AF58 /* allocation.cpp */,
+			);
+			path = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0429A4DE24FC18EF0083AF58 /* main.cpp in Sources */,
+				0429A4E724FC19CE0083AF58 /* allocation.cpp in Sources */,
+				0429A4E924FC1CA90083AF58 /* helper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
