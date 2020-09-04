@@ -9,6 +9,7 @@
 #include "headers.h"
 
 int main(int argc, const char * argv[]) {
-    allocation();
+//    plates();
+    longest_arithmetic();
     return 0;
 }

@@ -10,6 +10,8 @@
 		0429A4DE24FC18EF0083AF58 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0429A4DD24FC18EF0083AF58 /* main.cpp */; };
 		0429A4E724FC19CE0083AF58 /* allocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0429A4E624FC19CE0083AF58 /* allocation.cpp */; };
 		0429A4E924FC1CA90083AF58 /* helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0429A4E824FC1CA90083AF58 /* helper.cpp */; };
+		048EB12A24FEA7F700AF2C88 /* plates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 048EB12924FEA7F700AF2C88 /* plates.cpp */; };
+		04F4366D2502C609002FB322 /* longest_arithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04F4366C2502C609002FB322 /* longest_arithmetic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,8 @@
 		0429A4E624FC19CE0083AF58 /* allocation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = allocation.cpp; sourceTree = "<group>"; };
 		0429A4E824FC1CA90083AF58 /* helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = helper.cpp; sourceTree = "<group>"; };
 		0429A4EA24FC1DE80083AF58 /* headers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
+		048EB12924FEA7F700AF2C88 /* plates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = plates.cpp; sourceTree = "<group>"; };
+		04F4366C2502C609002FB322 /* longest_arithmetic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = longest_arithmetic.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 		0429A4E424FC193E0083AF58 /* 2020 */ = {
 			isa = PBXGroup;
 			children = (
+				04F4366B2502C5CE002FB322 /* E */,
 				0429A4E524FC194E0083AF58 /* A */,
 			);
 			path = 2020;
@@ -82,8 +87,17 @@
 			isa = PBXGroup;
 			children = (
 				0429A4E624FC19CE0083AF58 /* allocation.cpp */,
+				048EB12924FEA7F700AF2C88 /* plates.cpp */,
 			);
 			path = A;
+			sourceTree = "<group>";
+		};
+		04F4366B2502C5CE002FB322 /* E */ = {
+			isa = PBXGroup;
+			children = (
+				04F4366C2502C609002FB322 /* longest_arithmetic.cpp */,
+			);
+			path = E;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048EB12A24FEA7F700AF2C88 /* plates.cpp in Sources */,
 				0429A4DE24FC18EF0083AF58 /* main.cpp in Sources */,
 				0429A4E724FC19CE0083AF58 /* allocation.cpp in Sources */,
+				04F4366D2502C609002FB322 /* longest_arithmetic.cpp in Sources */,
 				0429A4E924FC1CA90083AF58 /* helper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

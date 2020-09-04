@@ -17,6 +17,11 @@ enum order {ASC,DESC};
 int* counting_sort(int* input,int size,int min,int max,enum order by);
 // def-> ./2020/A/allocation.cpp
 int allocation();
+// def-> ./2020/A/plates.cpp
+int plates();
+// def-> ./2020/E/londest_arithmetic.cpp
+
+int longest_arithmetic();
 
 using namespace std;
 
